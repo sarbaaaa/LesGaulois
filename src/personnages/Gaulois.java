@@ -32,9 +32,7 @@ public class Gaulois {
 	}
 	
 	public void frapper(Romain romain) {
-		String nomRomain = romain.getNom();
-		System.out.println(nom + "envoie un grand coup dans la mâchoire de " + nomRomain);
-		int forceCoup = force / 3;
-		romain.recevoirCoup(forceCoup);
+		System.out.println(nom + "envoie un grand coup dans la mâchoire de " + romain.getNom());
+		romain.recevoirCoup(force / 3);
 	}
 }
