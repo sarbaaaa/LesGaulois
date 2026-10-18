@@ -1,7 +1,5 @@
 package village_gaulois;
 
-import java.util.Iterator;
-
 import personnages.Gaulois;
 
 
